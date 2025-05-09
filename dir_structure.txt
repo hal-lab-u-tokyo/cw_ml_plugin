@@ -1,0 +1,58 @@
+├── CPAProggressive.md
+├── README.md
+├── cw_ml_plugin
+│   ├── __init__.py
+│   └── analyzer
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   └── __init__.cpython-39.pyc
+│       ├── attacks
+│       │   ├── LeakageAutoEncorder.py
+│       │   ├── __init__.py
+│       │   ├── _stats.py
+│       │   ├── aecpa.py
+│       │   ├── algorithms
+│       │   │   ├── ddla_algorithm_MSB.py
+│       │   │   ├── ddla_models.py
+│       │   │   └── lae_cpa.py
+│       │   ├── algorithmsbase.py
+│       │   ├── daecpa.py
+│       │   ├── ddla.py
+│       │   └── test.ipynb
+│       └── preprocessing
+│           ├── __init__.py
+│           ├── _sort_base.py
+│           ├── addnoize.py
+│           ├── autoencorder.py
+│           ├── autoencorder_models.py
+│           ├── convolve.py
+│           ├── group_and_label.py
+│           ├── hd_sort.py
+│           ├── max_sort.py
+│           ├── normalize.py
+│           ├── poi_slice.py
+│           └── sum_sort.py
+├── dir_structure.txt
+├── setup.py
+└── tests
+    └── analyzer
+        ├── algorithms
+        │   ├── __pycache__
+        │   │   └── test_lae_cpa.cpython-39-pytest-8.3.1.pyc
+        │   ├── test_ddla_algorithm.py
+        │   └── test_lae_cpa.py
+        ├── attacks
+        │   ├── test_LeakageAutoEncorder.py
+        │   ├── test_aecpa.py
+        │   ├── test_daecpap.py
+        │   └── test_ddla.py
+        └── preprocessing
+            ├── test_addnoize.py
+            ├── test_autoencorder.py
+            ├── test_convolve.py
+            ├── test_group_and_label.py
+            ├── test_hd_sort.py
+            ├── test_max_sort.py
+            ├── test_normalize.py
+            ├── test_poi_slice.py
+            └── test_sum_sort.py
